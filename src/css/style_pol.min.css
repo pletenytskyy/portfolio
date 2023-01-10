@@ -1,0 +1,36 @@
+* {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 1140px;
+  margin: 0 auto;
+}
+
+.policy {
+  margin-top: 60px;
+}
+.policy__title {
+  font-size: 34px;
+}
+.policy__menu {
+  margin-top: 30px;
+  font-weight: 700;
+}
+.policy__menu li {
+  margin-bottom: 10px;
+  list-style-type: none;
+}
+.policy__body-item {
+  margin-top: 30px;
+}
+.policy__body-title {
+  font-size: 20px;
+  font-weight: 700;
+}
+.policy__body-text {
+  margin-top: 10px;
+}

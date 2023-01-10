@@ -1,0 +1,41 @@
+@mixin before_circle {
+    &:before {
+        content: "";
+        position: absolute;
+        width: 30px;
+        height: 30px;
+        border-radius: 100%;
+        top: -20%;
+        left: 0;
+        background: $main-color;
+    }
+}
+
+@mixin before_circle_minus {
+    &:before {
+        content: "";
+        position: absolute;
+        width: 30px;
+        height: 30px;
+        border-radius: 100%;
+        top: -20%;
+        left: 0;
+        z-index: -1;
+        background: $main-color;
+    }
+}
+
+@mixin before_circle_center {
+    &:before {
+        content: "";
+        position: absolute;
+        width: 30px;
+        height: 30px;
+        border-radius: 100%;
+        top: -20%;
+        left: 43%;
+        transform: translateX(-43%);
+        z-index: -1;
+        background: $main-color;
+    }
+}

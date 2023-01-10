@@ -1,0 +1,37 @@
+.feedback {
+    &__title {
+        margin-top: 60px;
+        font-weight: 700;
+        font-size: 30px;
+        text-align: center;
+        text-transform: uppercase;
+    }
+    &-item {
+        display: flex;
+        margin-top: 60px;
+        img {
+            display: block;
+            margin-right: 62px;
+            max-width: 100%;
+            max-height: 169px;
+        }
+        &__text {
+            padding-right: 60px;
+        }
+        &__title {
+            font-weight: 700;
+            font-size: 18px;
+        }
+        &__subtitle {
+            font-weight: 500;
+            font-size: 14px;
+            color: #646464;
+        }
+        &__comment {
+            margin-top: 10px;
+            font-weight: 300;
+            font-size: 16px;
+            line-height: 24px;
+        }
+    }
+}

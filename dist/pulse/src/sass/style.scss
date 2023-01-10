@@ -1,0 +1,30 @@
+@import "libs/slick";
+@import "base/variables";
+@import "base/animations";
+
+*,
+*::before,
+*::after {
+    font-family: "MuseoModerno", cursive;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    max-width: 950px;
+    margin: 0 auto;
+}
+@import "blocks/promo";
+@import "blocks/header";
+@import "blocks/buttons";
+@import "blocks/benefits";
+@import "blocks/consultation";
+@import "blocks/forms";
+@import "blocks/carousel";
+@import "blocks/catalog";
+@import "blocks/feedback";
+@import "blocks/footer";
+@import "blocks/modal";
+@import "blocks/pageup";
+
+@import "base/media";
